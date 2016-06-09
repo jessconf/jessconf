@@ -1,0 +1,17 @@
+.intro-header { 
+  background: no-repeat center center; 
+  background-size: cover; 
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+.row { 
+  padding-top: 10px
+} 
+
+.section-heading {
+  color:white;
+  padding-top: 100px;
+  text-align: center;
+  font-weight: bold;
+} 
