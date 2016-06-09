@@ -9,6 +9,10 @@
   padding-top: 10px
 } 
 
+.profile_picture { 
+ height: 100px;
+}
+
 .section-heading {
   color:white;
   padding-top: 100px;
