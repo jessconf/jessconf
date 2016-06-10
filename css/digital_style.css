@@ -9,9 +9,30 @@
   padding-top: 10px
 } 
 
+.profile_picture { 
+ height: 100px;
+}
+
 .section-heading {
   color:white;
   padding-top: 100px;
   text-align: center;
   font-weight: bold;
+}
+td { 
+    border-bottom: none;
 } 
+
+.speaker { 
+    height: 200px
+}
+h5 { 
+    display: inline-block;
+    padding-right: 10px;
+}
+.speaker img { 
+    height: 100px;
+}
+.speaker.name { 
+    display:inline-block;
+}
