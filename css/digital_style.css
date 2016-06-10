@@ -5,6 +5,10 @@
   margin-bottom: 50px;
 }
 
+.fancyfont { 
+  font-family: "Sofia";
+  font-size: 100px;
+} 
 .row { 
   padding-top: 10px
 } 
