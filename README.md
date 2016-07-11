@@ -1,17 +1,20 @@
-# katieconf.xyz
+# jessconf.org
 
-Source code for KatieConf.xyz
+Source code for JessConf.org
 
-Tech stack: 
+> forked from the awesome
+[KatieConf](https://github.com/KatieConf/katieconf.github.io)
+
+Tech stack:
  - skeleton template
  - manual HTML
  - GitHub pages hosted content
- - Cheap-Az .xyz domain (gandi special)
+ - Cheap-Az .org domain (gandi special)
  - CloudFlare caching + SSL
 
 ## Editing
 
-### Adding a Katie
+### Adding a Jess
 
 #### Additions to index.html
 
@@ -32,7 +35,7 @@ Remember to add a `<div class="row">` for new rows
 
 #### Social Media
 
- - Have `@KatieConf` follow new listing
+ - Have `@JessConf` follow new listing
  - Append talk to YouTube playlist (or add note to description if non YT link)
  - Tweet out nice things <3
 
