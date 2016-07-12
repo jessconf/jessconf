@@ -9,8 +9,8 @@ Tech stack:
  - skeleton template
  - manual HTML
  - Netlify Static site hosting [https://www.netlify.com/](https://www.netlify.com/)
- - .org domain (gandi)
- - CloudFlare caching + SSL
+ - .org domain (
+ - Let's Encrypt SSL
 
 ## Editing
 
