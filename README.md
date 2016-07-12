@@ -8,8 +8,8 @@ Source code for JessConf.org
 Tech stack:
  - skeleton template
  - manual HTML
- - GitHub pages hosted content
- - Cheap-Az .org domain (gandi special)
+ - Netlify Static site hosting [https://www.netlify.com/](https://www.netlify.com/)
+ - .org domain (gandi)
  - CloudFlare caching + SSL
 
 ## Editing
