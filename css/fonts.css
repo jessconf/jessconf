@@ -1,9 +1,9 @@
 /* latin-ext */
 @font-face {
-  font-family: 'Sofia';
+  font-family: 'Seaside';
   font-style: normal;
   font-weight: 300;
-  src: url('Sofia-Regular.otf');
+  src: url('Seaside.ttf');
 }
 @font-face {
   font-family: 'Raleway';
