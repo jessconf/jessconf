@@ -1,0 +1,6 @@
+FROM mhart/alpine-node:latest
+
+RUN npm install --global \
+	less \
+	less-plugin-clean-css \
+	uglify-js

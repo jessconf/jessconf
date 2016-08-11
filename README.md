@@ -1,6 +1,6 @@
 # jessconf.org
 
-Source code for JessConf.org
+Source code for the JessConf website.
 
 > forked from the awesome
 [KatieConf](https://github.com/KatieConf/katieconf.github.io)

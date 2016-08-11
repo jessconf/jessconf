@@ -1,0 +1,6 @@
+baseurl = "https://jessconf.org/"
+languageCode = "en-us"
+title = "JessConf"
+
+[params]
+  description = "JessConf is a one day, single-track, community run conference."
