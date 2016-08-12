@@ -7,31 +7,34 @@ Source code for the JessConf website.
 
 Tech stack:
  - skeleton template
- - manual HTML
- - Netlify Static site hosting [https://www.netlify.com/](https://www.netlify.com/)
- - .org domain (
+ - [hugo](https://gohugo.io)
+ - [Netlify Static site hosting](https://www.netlify.com/)
+ - .org domain
  - Let's Encrypt SSL
 
-## Editing
+## Contributing
 
 ### Adding a Jess
 
-#### Additions to index.html
+Edit [config.toml](config.toml) and add your self under the last
+`[[params.speakers.person]]` with your information like so below:
 
-Remember to add a `<div class="row">` for new rows
+```toml
+[[params.speakers.person]]
+  name = "Jessica Jones"
+  img = "jessjones.jpg"
+  twitter = "jessjones"
+  talkTitle = "How I beat Kilgrave"
+  talkLink = "https://www.youtube.com/watch?v=ajsdfhbasdf"
+```
 
-```
-<div class="six columns speaker">
-    <table><tr><td>
-    <img src="img/TWITTER.jpeg">
-    </td><td>
-    <h5>GIVEN NAME</h5><a href="https://twitter.com/TWITTER"><img src="img/twitter.png" style="height: 20px"></a>
-    <br>
-    <a href="YOUTUBE">TALK TITLE</a>
-    <br>&nbsp;
-    </td></tr></table>
-</div>
-```
+Add your image to the `static/img/speakers/` directory.
+
+When you open a pull request [netlify](https://netlify.com) will build your
+branch and then you will be able to view the changes to the site **IN** your
+pull request via a
+[deploy preview](https://www.netlify.com/blog/2016/07/20/introducing-deploy-previews).
+
 
 #### Social Media
 
