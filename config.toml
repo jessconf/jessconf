@@ -2,6 +2,9 @@ baseurl = "https://jessconf.org/"
 languageCode = "en-us"
 title = "JessConf"
 
+[blackfriday]
+  hrefTargetBlank = true
+
 [params]
   date = "November 31st, 2016"
   description = "JessConf is a one day, single-track, community run conference."
