@@ -39,10 +39,10 @@
 		<![endif]-->
 	</head>
 	<body>
-		<div class="section intro-header" style="background-image: url('img/header_image.jpg')">
+		<div id="header" class="section intro-header" style="background-image: url('/img/header_image.jpg')">
 			<div class="container">
 				<h1 class="section-heading fancyfont" style="padding-top: 80px">{{ .Site.Title }}</h1>
-				<h3 class="section-heading" style="margin-top: 0px; padding-top: 0px">November 31, 2016</h3>
+				<h3 class="section-heading" style="margin-top: 0px; padding-top: 0px">{{ .Site.Params.date }}</h3>
 			</div>
 		</div>
 
@@ -50,7 +50,7 @@
 			<div class="container">
 				<div class="row">
 					<p>JessConf is a one day, single-track, community run conference.</p>
-					<p>JessConf 2016 will be held on <a href="https://www.google.com/maps/place/Jessie+Island/@-17.6730051,146.1716304,17z/data=!3m1!4b1!4m5!3m4!1s0x6978d66e414c95e1:0xd1e4b020b4d8678f!8m2!3d-17.6734879!4d146.1738743" target="_blank">Jessie Island, Cowley Beach, Australia</a> on November 31st, 2016</p>
+					<p>JessConf 2016 will be held on <a href="https://www.google.com/maps/place/Jessie+Island/@-17.6730051,146.1716304,17z/data=!3m1!4b1!4m5!3m4!1s0x6978d66e414c95e1:0xd1e4b020b4d8678f!8m2!3d-17.6734879!4d146.1738743" target="_blank">Jessie Island, Cowley Beach, Australia</a> on {{ .Site.Params.date }}</p>
 					<p>The conference features speakers from around the world, presenting on a vast number of topics. The tracks are defined by no particular order, and are subject to change.</p>
 				</div>
 			</div>

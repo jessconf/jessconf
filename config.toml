@@ -3,4 +3,80 @@ languageCode = "en-us"
 title = "JessConf"
 
 [params]
+  date = "November 31st, 2016"
   description = "JessConf is a one day, single-track, community run conference."
+
+  # Speakers section
+  [params.speakers]
+	title = "Speakers"
+
+	# The speakers will be listed from the top to the bottom.
+	# All images are stored under 'static/img/speakers/'.
+	# Add yours to the bottom.
+	[[params.speakers.person]]
+	  name = "Jessie Frazelle"
+	  img = "jessfraz.png"
+	  twitter = "jessfraz"
+	  talkTitle = "Docker Containers on the Desktop"
+	  talkLink = "https://www.youtube.com/watch?v=1qlLUf7KtAw"
+
+	[[params.speakers.person]]
+	  name = "Jessica Dillon"
+	  img = "jessicard.jpg"
+	  twitter = "jessicard"
+	  talkTitle = "Implementing a Visual CSS Testing Framework"
+	  talkLink = "https://www.youtube.com/watch?v=Q4ttqkIEM7g"
+
+	[[params.speakers.person]]
+	  name = "Jessica Goulding"
+	  img = "jessicag.jpg"
+	  twitter = "jessicag"
+
+	[[params.speakers.person]]
+	  name = "Jessy Irwin"
+	  img = "jessysaurusrex.jpg"
+	  twitter = "jessysaurusrex"
+	  talkTitle = "Cryptoparty: An Introduction to Secure, Usable Encryption Tools for All"
+	  talkLink = "https://www.youtube.com/watch?v=219USCB6TKk"
+
+	[[params.speakers.person]]
+	  name = "Jess Dodson"
+	  img = "girlgerms.jpg"
+	  twitter = "girlgerms"
+	  talkTitle = "\"Righting the Right Rights\""
+	  talkLink = "https://channel9.msdn.com/Events/Ignite/Australia-2015/WIN341B"
+
+	[[params.speakers.person]]
+	  name = "Jess Sorrell"
+	  img = "jess_sorrell.jpg"
+	  twitter = "optimistsinc"
+	  talkTitle = "Lattice-based Cryptography from the Learning with Errors Problem"
+	  talkLink = "http://www.optimistindustries.com/wp-content/uploads/2015/02/brandeis_pres.pdf"
+
+	[[params.speakers.person]]
+	  name = "Jessica Rose"
+	  img = "jesslynnrose.jpg"
+	  twitter = "jesslynnrose"
+
+	[[params.speakers.person]]
+	  name = "Jess Unrein"
+	  img = "jess_unrein.jpg"
+	  twitter = "JLUnrein"
+	  talkTitle = "Python Logging: A Meditation on Silent Failures"
+	  talkLink = "https://github.com/thejessleigh/talks/tree/master/python_talks/intro_logging"
+
+  # Organizers section
+  [params.organizers]
+	title = "Organizers"
+
+	# The organizers will be listed from the top to the bottom.
+	# All images are stored under 'static/img/organizers/'.
+	[[params.organizers.person]]
+	  name = "Jessica Suttles"
+	  img = "jlsuttles.jpg"
+	  twitter = "jlsuttles"
+
+	[[params.organizers.person]]
+	  name = "Jessica Solper"
+	  img = "itgirljs.jpg"
+	  twitter = "itgirljs"
