@@ -5,7 +5,7 @@ slug = "about"
 +++
 
 JessConf is a parody. Have you checked a calendar lately? There is no
-Novemeber 31st. Sorry.
+November 31st. Sorry.
 [Jessie Island, Cowley Beach, Australia](https://www.google.com/maps/place/Jessie+Island/@-17.6730051,146.1716304,17z/data=!3m1!4b1!4m5!3m4!1s0x6978d66e414c95e1:0xd1e4b020b4d8678f!8m2!3d-17.6734879!4d146.1738743")
 does exist, though.
 
