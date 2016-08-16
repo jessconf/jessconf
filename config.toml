@@ -67,6 +67,12 @@ title = "JessConf"
 	  twitter = "JLUnrein"
 	  talkTitle = "Python Logging: A Meditation on Silent Failures"
 	  talkLink = "https://github.com/thejessleigh/talks/tree/master/python_talks/intro_logging"
+	  
+	[[params.speakers.person]]
+	  name = "Jessica Temporal"
+	  img = "jessicatemporal.jpg"
+	  twitter = "jesstemporal"
+
 
   # Organizers section
   [params.organizers]
