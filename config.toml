@@ -67,14 +67,15 @@ title = "JessConf"
 	  twitter = "JLUnrein"
 	  talkTitle = "Python Logging: A Meditation on Silent Failures"
 	  talkLink = "https://github.com/thejessleigh/talks/tree/master/python_talks/intro_logging"
-	  
+
 	[[params.speakers.person]]
 	  name = "Jessica Temporal"
 	  img = "jessicatemporal.jpg"
 	  twitter = "jesstemporal"
-	  
+
 	[[params.speakers.person]]
 	  name = "Jessica DeVita"
+	  img = "ubergeekgirl.jpg"
 	  twitter = "ubergeekgirl"
 	  talkTitle = "An API Between Us"
 	  talkLink = "http://2016.leanuxnyc.co/2015/11/11/an-api-between-us-jessica-devita/"
