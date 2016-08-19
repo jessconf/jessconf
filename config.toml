@@ -72,6 +72,12 @@ title = "JessConf"
 	  name = "Jessica Temporal"
 	  img = "jessicatemporal.jpg"
 	  twitter = "jesstemporal"
+	  
+	[[params.speakers.person]]
+	  name = "Jessica DeVita"
+	  twitter = "ubergeekgirl"
+	  talkTitle = "An API Between Us"
+	  talkLink = "http://2016.leanuxnyc.co/2015/11/11/an-api-between-us-jessica-devita/"
 
 
   # Organizers section
